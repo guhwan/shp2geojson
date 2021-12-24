@@ -9,7 +9,7 @@ from json import dumps
 def process():
     ## 디렉토리 경로
     ## output(geojson) 폴더는 dir+"_geojson"으로 생성
-    dir = "./msp2"
+    dir = ""
     dash = str(sys.argv[1])
     if dash == "-d":
         dir = str(sys.argv[2])
